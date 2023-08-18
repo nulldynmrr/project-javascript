@@ -1,1 +1,1 @@
-# project-javascript
+# project-javascript-kalkulator
