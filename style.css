@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,400;1,500;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #138065;
+  display: grid;
+  place-items: center;
+}
+h1 {
+  color: white;
+}
+
+.kalkulator {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #3a4452;
+  color: white;
+}
+.kalkulator form input {
+  height: 60px;
+  width: 60px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(225, 225, 225, 0.1),
+    5px 5px 12px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px;
+  color: white;
+}
+
+.kalkulator form input:hover {
+  background-color: #3a4460;
+}
+.kalkulator form input#display:hover {
+  background: transparent;
+}
+
+form .container-display {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+form input#display {
+  flex: 1;
+  width: 310px;
+  text-align: right;
+  font-size: 2rem;
+  box-shadow: none;
+  letter-spacing: 1px;
+}
+
+form input.equal {
+  width: 145px;
+}
+form input.equal:hover {
+  background-color: #3a4470;
+}
+
+form input.operator {
+  color: #33ffd8;
+}
